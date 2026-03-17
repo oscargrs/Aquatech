@@ -1,0 +1,135 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* TOPO DO SITE */
+
+.header {
+    background-color: black;
+    height: 5em;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    height: 5em;
+}
+
+.container h1 {
+    color: rgb(10, 180, 180);
+    align-self: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar li,
+.navbar a {
+    color: orange;
+    text-decoration: none;
+    list-style: none;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.banner .container {
+    background: url(../assets/imgs/bg-jelly-fish-para-home.png);
+    height: 70dvh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner .container p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 12em;
+    font-size: 2.5em;
+    width: 5em;
+    text-align: justify;
+    align-self: center;
+    color: white;
+}
+
+.banner .container span {
+    font-weight: bold;
+}
+
+/* CONTEÚDO DA PÁGINA */
+
+.social {
+    display: flex;
+    height: 50dvh;
+    align-items: center;
+}
+
+.social .container {
+    height: 100%;
+}
+
+.boxes {
+    display: flex;
+    background-color: rgb(233, 233, 233);
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.box {
+    width: 15%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box h4 {
+    color: palevioletred;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 2px rgb(124, 1, 22);
+}
+
+.box p {
+    text-align: center;
+}
+
+.box img {
+    width: 150px;
+    height: 150px;
+}
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    height: 20dvh;
+    background-color: rgb(2, 169, 169);
+    display: flex;
+    justify-content: center;
+}
+
+.footer .container {
+    text-align: center;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 1.2em;
+}
+
+.agora a {
+    font-weight: bold;
+    font-size: 18px;
+}
